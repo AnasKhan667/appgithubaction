@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
+                echo 'Hello I M notofyinrg Jenkins After Every One Minute'
             }
         }
 
