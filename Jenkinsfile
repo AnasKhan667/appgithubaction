@@ -1,8 +1,5 @@
 pipeline {
     agent any
-     tools {
-        python 'Python3'  // ShiningPanda
-    }
 
     stages {
         stage('Build') {
