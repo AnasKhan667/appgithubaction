@@ -1,11 +1,14 @@
 pipeline {
     agent any
+     tools {
+        python 'Python3'  // ShiningPanda
+    }
 
     stages {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                echo 'Hello I M notofyinrg Jenkins After Every One Minute'
+                sh 'python -m pip install --upgrade pip'
             }
         }
 
